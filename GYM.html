@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Fitness Page</title>
+</head>
+<style>
+     body {
+          color: rgb(255, 255, 255);
+          margin: 0px;
+          padding: 0px;
+          background-image: url('img/qqq.jpg');
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+
+     .left {
+          /* border: 2px solid red; */
+          position: absolute;
+          display: inline-block;
+          top: 22px;
+          left: 34px;
+          line-height: 1px;
+          font-size: 20;
+     }
+
+     .mid {
+          /* border: 2px solid rgb(0, 68, 255); */
+          display: block;
+          margin: 34px auto;
+          width: 40%;
+          /* text-align: center; */
+
+
+     }
+
+     .right {
+          /* border: 2px solid rgb(0, 225, 255); */
+          display: inline-block;
+          position: absolute;
+          top: 22px;
+          right: 34px;
+     }
+     .navbar li{ 
+display: inline-block;
+}
+.navbar li a{
+          color: white;
+          text-decoration: none;
+          margin: 1px 20px;
+          font-size: 18px;
+     }
+     .navbar li a:hover{
+          color: rgb(255, 153, 0);
+          text-decoration: underline;
+     }
+     .navbar li a.active{
+text-decoration: underline;
+color: rgb(255, 153, 0);
+     }
+.left img{
+     width: 140px;
+     height: 81px;
+     filter: invert(100%);
+     cursor: pointer;
+}
+.left div{
+     text-align: center;
+}
+.right button{
+     color: white;
+     margin: 8px;
+     padding: 3px;
+     background-color: rgb(0, 0, 0);
+     border: 2px solid rgb(173, 173, 163);
+     border-radius: 6px;
+     cursor: pointer;
+}
+.btn:hover{
+background-color: rgb(179, 201, 201);
+
+}
+.container{
+     border: 2px solid gainsboro;
+     margin: 5rem 4rem;
+     margin-top: 6rem ;
+     padding: 39px 39px;
+     width: 37%;
+     /* background-color: rgb(48, 49, 49); */
+     text-align: center;
+     border-radius: 18px;
+}
+.container input{
+     text-align: center;
+}
+.form input{
+     border: 2px solid rgb(0, 0, 0);
+     border-radius: 4px;
+     margin: 2px 8px;
+     padding: 6px;
+     width: 60%;
+}
+.but button{
+     color: rgb(255, 254, 254);
+     border: 2px solid rgb(102, 101, 101);
+     margin: 5px 2px;
+     padding: 6px;
+     width: 63%;
+     cursor: pointer;
+     background-color: black;
+     outline: none;
+}
+
+</style>
+
+<body>
+     <header>
+     <div class="header">
+          <div class="left">
+               <img src="img/Untitled.png" alt="">
+                    <div>Fit Fitness</div>
+          </div>
+          <div class="mid">
+               <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Fitness</a></li>
+               </ul>
+          </div>
+     </div>
+</header>
+
+     <div class="right">
+          <button class="btn">Log In</button>
+          <button class="btn">Sign In</button>
+     </div>
+
+          <div class="container">
+<h1>Join The Fit Fitness Gym</h1>
+<div class="form">
+     <input type="text" placeholder="Enter Your Name">
+</div><div class="form">
+     <input type="text" placeholder="Enter Your Age">
+</div>
+<div class="form">
+     <input type="text" placeholder="Enter Your Gender">
+</div>
+<div class="form">
+     <input type="text" placeholder="Enter Your Activity">
+</div>
+<div class="but">
+     <button>Submit Now</button>
+</div>
+</div>
+          
+
+     
+     </div>
+</body>
+
+</html>
